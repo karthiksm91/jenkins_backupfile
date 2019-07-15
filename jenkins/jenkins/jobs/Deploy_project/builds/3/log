@@ -1,0 +1,24 @@
+Started by upstream project "[8mha:////4GUz+arYjTApo1/3FsX+69CkBmD4ayEbkoytNzPl7L9VAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2k0syclPiCovys1OQSfQAVT0u/yAAAAA==[0mbuild_project" build number [8mha:////4CqSLNisBfOXjv8JUlg7JuE1dgTYfkmtaJHPhFf2h3OvAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JP2k0syclPiCovys1OQSfUMDACAVIeDKAAAA[0m10
+originally caused by:
+ Started by user [8mha:////4AL9FtrAaGvEbgiQHJvP0XCP1Sx//Qkk79sfqWkr8vGzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mKarthiksm
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy_project
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision dd1853b0f326c415368aed3487e2097ce7a942d8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dd1853b0f326c415368aed3487e2097ce7a942d8
+Commit message: "make files"
+ > git rev-list --no-walk dd1853b0f326c415368aed3487e2097ce7a942d8 # timeout=10
+[Deploy_project] $ /bin/sh -xe /tmp/jenkins1212091441939470153.sh
++ echo 'deployed successfuly'
+deployed successfuly
+Triggering a new build of [8mha:////4P0mF4+hYe7NfghYrPZ4DBIilhI9XFLfuuUr1sEWv4ruAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+iWpxSXxBUX5WanJJfoA7Z+F/ccAAAA=[0mtest_project
+Finished: SUCCESS

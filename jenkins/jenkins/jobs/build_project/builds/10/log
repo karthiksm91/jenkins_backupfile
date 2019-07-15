@@ -1,0 +1,22 @@
+Started by user [8mha:////4AL9FtrAaGvEbgiQHJvP0XCP1Sx//Qkk79sfqWkr8vGzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mKarthiksm
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/build_project
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision dd1853b0f326c415368aed3487e2097ce7a942d8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dd1853b0f326c415368aed3487e2097ce7a942d8
+Commit message: "make files"
+ > git rev-list --no-walk dd1853b0f326c415368aed3487e2097ce7a942d8 # timeout=10
+[build_project] $ /bin/sh -xe /tmp/jenkins18778769013760719.sh
++ echo 'Build is done successfully'
+Build is done successfully
+Triggering a new build of [8mha:////4Bwmcp5W6yAwoN6hi70kd2puf21M8zA/vJC1jsRa9iVSAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2X1IKc/Mr4gqL8rNTkEn0ANAOBFckAAAA=[0mDeploy_project
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+Started on Jul 13, 2019 3:37:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision d1f71b2c439e2131396c882e1064aafe49845a8a (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/karthiksm91/karthiksm # timeout=10
+Found 1 remote heads on https://github.com/karthiksm91/karthiksm
+[poll] Latest remote head revision on refs/heads/master is: b1df35f2e3e19b28690abe98893cdb56656d6813
+Done. Took 0.91 sec
+Changes found

@@ -1,0 +1,24 @@
+Started by GitHub push by karthiksm91
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/buildbyhooks
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/karthiksm91/karthiksm
+ > git init /var/lib/jenkins/workspace/buildbyhooks # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b44eee99d39bb48622c21736db7b81961a05b4de (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b44eee99d39bb48622c21736db7b81961a05b4de
+Commit message: "Update big3.c"
+First time build. Skipping changelog.
+[buildbyhooks] $ /bin/sh -xe /tmp/jenkins3627998287523331468.sh
+Finished: SUCCESS

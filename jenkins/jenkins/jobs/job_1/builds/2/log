@@ -1,0 +1,22 @@
+Started by user [8mha:////4AL9FtrAaGvEbgiQHJvP0XCP1Sx//Qkk79sfqWkr8vGzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mKarthiksm
+Running as SYSTEM
+Building remotely on [8mha:////4Mnf/365pw29uBtwcV0RFnt8i8JIak1/Dx3J7VOttl9JAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (slave) in workspace /home/jenkins_slave/workspace/job_1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm1 # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm1
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm1 +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 25ed127b18166786f663437389eb9e7657718771 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 25ed127b18166786f663437389eb9e7657718771
+Commit message: "make files"
+ > git rev-list --no-walk 25ed127b18166786f663437389eb9e7657718771 # timeout=10
+[job_1] $ /bin/sh -xe /tmp/jenkins7436637790471996673.sh
++ make
+makefile:1: *** missing separator.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

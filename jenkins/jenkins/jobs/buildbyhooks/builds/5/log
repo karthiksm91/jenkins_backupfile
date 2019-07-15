@@ -1,0 +1,21 @@
+Started by GitHub push by karthiksm91
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/buildbyhooks
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d1f71b2c439e2131396c882e1064aafe49845a8a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d1f71b2c439e2131396c882e1064aafe49845a8a
+Commit message: "Update big3.c"
+ > git rev-list --no-walk db2f199c13a4f557a394a1c4f5c22bf7cb32abf5 # timeout=10
+[buildbyhooks] $ /bin/sh -xe /tmp/jenkins5952577065896541967.sh
++ echo world
+world
+Finished: SUCCESS

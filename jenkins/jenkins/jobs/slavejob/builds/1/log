@@ -1,0 +1,28 @@
+Started by an SCM change
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/slavejob
+using credential 50c6e348-646b-41b0-aced-799c634a7cf3
+Cloning the remote Git repository
+Cloning repository https://github.com/karthiksm91/karthiksm
+ > git init /var/lib/jenkins/workspace/slavejob # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision dd1853b0f326c415368aed3487e2097ce7a942d8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dd1853b0f326c415368aed3487e2097ce7a942d8
+Commit message: "make files"
+First time build. Skipping changelog.
+[slavejob] $ /bin/sh -xe /tmp/jenkins6193527983382748365.sh
++ echo 'Hello team'
+Hello team
+Finished: SUCCESS

@@ -1,0 +1,21 @@
+Started by an SCM change
+Running as SYSTEM
+Building remotely on [8mha:////4Mnf/365pw29uBtwcV0RFnt8i8JIak1/Dx3J7VOttl9JAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (slave) in workspace /home/jenkins_slave/workspace/slavejob
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b1df35f2e3e19b28690abe98893cdb56656d6813 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b1df35f2e3e19b28690abe98893cdb56656d6813
+Commit message: "Update big3.c"
+ > git rev-list --no-walk d1f71b2c439e2131396c882e1064aafe49845a8a # timeout=10
+[slavejob] $ /bin/sh -xe /tmp/jenkins1105439724102925775.sh
++ echo 'Hello team'
+Hello team
+Finished: SUCCESS

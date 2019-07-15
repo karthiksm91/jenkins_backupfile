@@ -1,0 +1,55 @@
+commit dd1853b0f326c415368aed3487e2097ce7a942d8
+tree ad9c2eb4537ec1180dd338da254c8922cf2e86f9
+parent 5f515dd12ec6485518929c07155acda76d449531
+author Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:54:29 +0000
+committer Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:54:29 +0000
+
+    make files
+
+
+
+:100644 100644 372d1b7c9daf4ded15370db6c5670a9c93fc61da 9f6b7541d132a0de9afce63fb21a8baeda162e66 M	makefile
+commit 5f515dd12ec6485518929c07155acda76d449531
+tree 7d425b0145111a27b9d9f287ed7a9d4f5ff5baf9
+parent ee517acfa5bbb4933402c67324150d67e9ba751f
+author Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:49:13 +0000
+committer Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:49:13 +0000
+
+    main files
+
+
+
+:100644 100644 a5f8ead9435361a5d60fae4866cc39a03750d48c 2ad2632115642b97cf9d61edc30858edeee32650 M	main.c
+commit ee517acfa5bbb4933402c67324150d67e9ba751f
+tree 4b28ccf7dd269b9126b7ba8d93563033ce4ac4d6
+parent cdbcab15de707880a0e0189bcefc8bd95e7d807b
+author Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:47:01 +0000
+committer Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:47:01 +0000
+
+    reverse of a no
+
+
+
+:100644 100644 910858263e02b425a5f5765fbc6307ab02a2083a ec6eec6b41fcabd272195f7eb70095e1fb8a4827 M	reverse.c
+commit cdbcab15de707880a0e0189bcefc8bd95e7d807b
+tree 42ebddca66d908aa1ecabfd6823722e3012d7f5d
+parent cf8534e8c55d44593c05ea598d96fbccabfbe21c
+author Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:44:52 +0000
+committer Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:44:52 +0000
+
+    palindrome
+
+
+
+:100644 100644 12434e3d2998bb9564f6dddbd3eca145f2c5351e 91af575d61d3c49746cf4208b901997862c430bf M	pallindrom.c
+commit 5c9d47aa3bb299b010916b333ce29a6ef8d6f03f
+tree 75a651e4e0fc76f89fd54f76859cd4870b65b7fd
+parent 51d1ca66b2c227f625d126f62df7aece35b4d8c8
+author Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:30:09 +0000
+committer Cloud User <ec2-user@ip-172-31-36-217.ap-south-1.compute.internal> 2019-07-12 07:30:09 +0000
+
+    makefile
+
+
+
+:100644 100644 654c39adf22007099f75cbceceed4d734b5b8b54 372d1b7c9daf4ded15370db6c5670a9c93fc61da M	makefile

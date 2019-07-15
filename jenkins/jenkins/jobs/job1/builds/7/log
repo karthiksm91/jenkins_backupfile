@@ -1,0 +1,24 @@
+Started by user [8mha:////4AL9FtrAaGvEbgiQHJvP0XCP1Sx//Qkk79sfqWkr8vGzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mKarthiksm
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthiksm91/karthiksm # timeout=10
+Fetching upstream changes from https://github.com/karthiksm91/karthiksm
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/karthiksm91/karthiksm +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 89b635fd0aa9c904cd363a85d5c3299b792df68d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 89b635fd0aa9c904cd363a85d5c3299b792df68d
+Commit message: "Delete fact.o"
+ > git rev-list --no-walk 51d1ca66b2c227f625d126f62df7aece35b4d8c8 # timeout=10
+[job1] $ /bin/sh -xe /tmp/jenkins235757214868272734.sh
++ cd /var/lib/jenkins/workspace/job1
++ make
+gcc -c fact.c
+gcc -c big3.c
+gcc -o xyz.exe fact.c big3.c main.c
+Finished: SUCCESS
